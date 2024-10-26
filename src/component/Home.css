@@ -1,0 +1,43 @@
+.home-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .container {
+    max-width: 1000px;
+  }
+  .navbar3 {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
+  
+.fade-out {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+

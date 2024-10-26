@@ -1,0 +1,13 @@
+
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+  padding: 20px;
+}
+
+.footer-link:hover {
+  color: #007bff;
+}
+
